@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Emblema estilizado de dragão de três cabeças">
+  <defs><linearGradient id="fire" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b94b3c"/><stop offset="1" stop-color="#5b171f"/></linearGradient></defs>
+  <circle cx="100" cy="100" r="94" fill="#241719" stroke="#b68a58" stroke-width="3"/>
+  <circle cx="100" cy="100" r="83" fill="none" stroke="#6e3c37" stroke-width="1.5"/>
+  <g fill="url(#fire)" stroke="#d1a16c" stroke-width="2.2" stroke-linejoin="round">
+    <!-- central neck and head -->
+    <path d="M91 153 C76 130 77 111 91 94 L78 70 91 48 105 65 119 49 132 73 117 91 C132 110 126 133 109 153 L100 169 Z"/>
+    <path d="M91 49 L66 35 73 57 55 67 83 73 91 63 Z"/>
+    <path d="M132 73 L158 60 148 81 165 91 137 94 125 83 Z"/>
+    <!-- left head -->
+    <path d="M76 109 C58 105 42 89 39 72 L25 61 47 58 56 40 65 61 82 68 93 86 84 98 Z"/>
+    <!-- right head -->
+    <path d="M124 109 C142 105 158 89 161 72 L175 61 153 58 144 40 135 61 118 68 107 86 116 98 Z"/>
+    <!-- wings -->
+    <path d="M78 100 L39 111 18 91 25 126 48 139 36 155 72 143 92 119 Z"/>
+    <path d="M122 100 L161 111 182 91 175 126 152 139 164 155 128 143 108 119 Z"/>
+    <!-- tail -->
+    <path d="M100 143 C120 151 132 165 119 177 L105 168 100 184 92 168 80 177 C68 162 82 150 100 143 Z"/>
+  </g>
+  <g fill="#e8c18b"><circle cx="62" cy="70" r="3"/><circle cx="144" cy="70" r="3"/><circle cx="102" cy="77" r="3"/></g>
+</svg>
