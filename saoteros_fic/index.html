@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#241719">
-  <meta name="description" content="Uma biblioteca de histórias ambientadas em Westeros.">
-  <title>Quando Dragões Aprendem a Amar — Arquivo de Westeros</title>
+  <meta name="description" content="Uma biblioteca de histórias ambientadas em Saoteros.">
+  <title>Quando Dragões Aprendem a Amar — Arquivo de Saoteros</title>
   <link rel="icon" href="assets/targaryen-sigil.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,7 +13,7 @@
   <header class="site-header">
     <a class="brand" href="#" aria-label="Página inicial">
       <img src="assets/targaryen-sigil.svg" alt="" class="sigil">
-      <span><small>ARQUIVO DE</small><strong>WESTEROS</strong></span>
+      <span><small>ARQUIVO DE</small><strong>SAOTEROS</strong></span>
     </a>
     <div class="header-actions">
       <button id="themeToggle" class="icon-button" type="button" aria-label="Alternar tema" title="Alternar tema">☾ <span>Tema</span></button>
@@ -31,20 +31,27 @@
         <h3>ÍNDICE</h3>
         <ol id="chapterList" class="chapter-list"></ol>
       </nav>
-      <div class="sidebar-foot">Uma história de fogo, sangue<br>e corações em disputa.</div>
+      <div class="sidebar-foot">Uma história de fogo, sangue<br>e reinos em disputa.</div>
     </aside>
 
     <section class="reading-area">
       <div class="story-banner">
         <div class="banner-symbol"><img src="assets/targaryen-sigil.svg" alt="Emblema estilizado de dragão de três cabeças"></div>
         <div>
-          <p class="eyebrow" id="storyFandom">UNIVERSO • GOT / HOTD</p>
+          <p class="eyebrow" id="storyFandom">UNIVERSO • TRÊS GRAÇAS | GOT / HOTD</p>
           <h1 id="storyTitle">Quando Dragões Aprendem a Amar</h1>
-          <p class="story-subtitle" id="storySubtitle">Uma crônica de Westeros</p>
+          <p class="story-subtitle" id="storySubtitle">Uma crônica de Saoteros</p>
         </div>
       </div>
 
       <div class="story-meta" id="storyMeta"></div>
+      <section class="reading-progress" aria-label="Progresso geral da leitura">
+        <div class="reading-progress-label">
+          <span>Progresso da leitura</span>
+          <span id="readingProgressValue">0%</span>
+        </div>
+        <progress id="readingProgressBar" max="100" value="0" aria-label="Progresso geral da leitura">0%</progress>
+      </section>
       <div class="reader-toolbar">
         <div class="chapter-select-wrap">
           <label for="chapterSelect">Capítulo</label>
@@ -68,7 +75,7 @@
         <span id="chapterCounter">1 / 1</span>
         <button id="nextChapter" type="button">Próximo capítulo →</button>
       </nav>
-      <footer class="reader-footer">“A realeza não é apenas um status, é um dever.”<br><span>— Arquivo de Westeros</span></footer>
+      <footer class="reader-footer">“A realeza não é apenas um status, é um dever.”<br><span>— Arquivo de Saoteros | Todos os direitos reservados para os autores.</span></footer>
     </section>
   </main> 
   <script src="story.js"></script>

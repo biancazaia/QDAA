@@ -42,6 +42,12 @@ button { cursor: pointer; }
 .story-subtitle { color:var(--muted); margin:0; font-style:italic; }
 .story-meta { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; max-width:850px; margin:0 auto 24px; }
 .meta-chip { border:1px solid var(--border); color:var(--muted); border-radius:3px; padding:6px 10px; font:11px Arial,sans-serif; letter-spacing:.04em; }
+.reading-progress { max-width:850px; margin:0 auto 20px; }
+.reading-progress-label { display:flex; justify-content:space-between; margin-bottom:7px; color:var(--muted); font:12px Arial,sans-serif; }
+.reading-progress progress { display:block; width:100%; height:8px; overflow:hidden; appearance:none; border:0; border-radius:8px; background:var(--surface-2); }
+.reading-progress progress::-webkit-progress-bar { background:var(--surface-2); border-radius:8px; }
+.reading-progress progress::-webkit-progress-value { background:var(--accent); border-radius:8px; transition:width .2s ease; }
+.reading-progress progress::-moz-progress-bar { background:var(--accent); border-radius:8px; }
 .reader-toolbar { max-width:850px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; gap:12px; padding:13px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
 .chapter-select-wrap { display:flex; align-items:center; gap:8px; color:var(--muted); font-size:13px; }
 select { background:var(--surface); color:var(--text); border:1px solid var(--border); padding:7px 9px; border-radius:4px; max-width:230px; }

@@ -7,6 +7,7 @@ Site estático, responsivo e sem dependências externas, feito para abrir no VS 
 - Tipografia serifada inspirada na experiência de leitura do AO3 (Georgia)
 - Emblema de dragão de três cabeças em SVG, com estética Targaryen
 - Índice de capítulos, seletor, anterior/próximo
+- Progresso geral de leitura salvo neste navegador
 - Ajuste do tamanho da fonte e largura da coluna
 - Responsivo para celular e desktop
 

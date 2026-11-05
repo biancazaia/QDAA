@@ -3,6 +3,16 @@
   let current = 0;
   let readerSize = 19;
   let wide = false;
+  const readingProgressKey = `story-reading-progress:${STORY.title}`;
+  const chapterWordCounts = STORY.chapters.map((chapter) => {
+    const content = document.createElement("div");
+    content.innerHTML = chapter.content;
+    return (content.textContent || "").trim().split(/\s+/).filter(Boolean).length;
+  });
+  const totalWords = chapterWordCounts.reduce((total, words) => total + words, 0);
+  let chapterProgress = loadReadingProgress();
+  let progressFrame = 0;
+  let skipProgressUntilTop = false;
 
   const safeText = (value) => String(value ?? "");
   function renderChapter(index) {
@@ -21,9 +31,66 @@
       button.classList.toggle("active", i === current);
       button.setAttribute("aria-current", i === current ? "page" : "false");
     });
+    skipProgressUntilTop = window.scrollY > 0;
     window.scrollTo({ top: 0, behavior: "smooth" });
+    renderOverallProgress();
     $("sidebar").classList.remove("open");
     $("contentsToggle").setAttribute("aria-expanded", "false");
+  }
+  function loadReadingProgress() {
+    const emptyProgress = STORY.chapters.map(() => 0);
+    const savedProgress = localStorage.getItem(readingProgressKey);
+    if (!savedProgress) return emptyProgress;
+
+    try {
+      const saved = JSON.parse(savedProgress);
+      if (!Array.isArray(saved)) throw new TypeError("O progresso salvo não é uma lista.");
+      return emptyProgress.map((_, index) => {
+        const value = saved[index];
+        return typeof value === "number" && Number.isFinite(value)
+          ? Math.min(1, Math.max(0, value))
+          : 0;
+      });
+    } catch (error) {
+      console.error("Não foi possível carregar o progresso de leitura salvo.", error);
+      return emptyProgress;
+    }
+  }
+  function renderOverallProgress() {
+    const wordsRead = chapterProgress.reduce(
+      (total, progress, index) => total + progress * chapterWordCounts[index],
+      0
+    );
+    const percentage = totalWords ? Math.floor((wordsRead / totalWords) * 100) : 0;
+    $("readingProgressBar").value = percentage;
+    $("readingProgressBar").textContent = `${percentage}%`;
+    $("readingProgressValue").textContent = `${percentage}%`;
+  }
+  function updateReadingProgress() {
+    if (skipProgressUntilTop) {
+      if (window.scrollY > 0) return;
+      skipProgressUntilTop = false;
+    }
+
+    const chapterContent = $("chapterContent");
+    const contentHeight = chapterContent.getBoundingClientRect().height;
+    if (contentHeight === 0 || chapterWordCounts[current] === 0) return;
+
+    const readingLine = window.innerHeight * 0.5;
+    const contentTop = chapterContent.getBoundingClientRect().top;
+    const fractionRead = Math.min(1, Math.max(0, (readingLine - contentTop) / contentHeight));
+    if (fractionRead <= chapterProgress[current]) return;
+
+    chapterProgress[current] = fractionRead;
+    localStorage.setItem(readingProgressKey, JSON.stringify(chapterProgress));
+    renderOverallProgress();
+  }
+  function scheduleProgressUpdate() {
+    if (progressFrame) return;
+    progressFrame = window.requestAnimationFrame(() => {
+      progressFrame = 0;
+      updateReadingProgress();
+    });
   }
   function toRoman(num) {
     const vals = [[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];
@@ -83,5 +150,7 @@
     const opened = $("sidebar").classList.toggle("open");
     $("contentsToggle").setAttribute("aria-expanded", String(opened));
   });
+  window.addEventListener("scroll", scheduleProgressUpdate, { passive: true });
+  window.addEventListener("resize", scheduleProgressUpdate);
   initialize();
 })();
