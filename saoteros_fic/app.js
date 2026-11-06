@@ -4,12 +4,6 @@
   let readerSize = 19;
   let wide = false;
   const readingProgressKey = `story-reading-progress:${STORY.title}`;
-  const chapterWordCounts = STORY.chapters.map((chapter) => {
-    const content = document.createElement("div");
-    content.innerHTML = chapter.content;
-    return (content.textContent || "").trim().split(/\s+/).filter(Boolean).length;
-  });
-  const totalWords = chapterWordCounts.reduce((total, words) => total + words, 0);
   let chapterProgress = loadReadingProgress();
   let progressFrame = 0;
   let skipProgressUntilTop = false;
@@ -33,7 +27,7 @@
     });
     skipProgressUntilTop = window.scrollY > 0;
     window.scrollTo({ top: 0, behavior: "smooth" });
-    renderOverallProgress();
+    renderChapterProgress();
     $("sidebar").classList.remove("open");
     $("contentsToggle").setAttribute("aria-expanded", "false");
   }
@@ -56,12 +50,11 @@
       return emptyProgress;
     }
   }
-  function renderOverallProgress() {
-    const wordsRead = chapterProgress.reduce(
-      (total, progress, index) => total + progress * chapterWordCounts[index],
-      0
-    );
-    const percentage = totalWords ? Math.floor((wordsRead / totalWords) * 100) : 0;
+  function renderChapterProgress() {
+    const percentage = Math.floor(chapterProgress[current] * 100);
+    const label = `Progresso do capítulo ${current + 1}`;
+    $("readingProgressLabel").textContent = label;
+    $("readingProgressBar").setAttribute("aria-label", label);
     $("readingProgressBar").value = percentage;
     $("readingProgressBar").textContent = `${percentage}%`;
     $("readingProgressValue").textContent = `${percentage}%`;
@@ -71,19 +64,17 @@
       if (window.scrollY > 0) return;
       skipProgressUntilTop = false;
     }
-
     const chapterContent = $("chapterContent");
-    const contentHeight = chapterContent.getBoundingClientRect().height;
-    if (contentHeight === 0 || chapterWordCounts[current] === 0) return;
+    const contentRect = chapterContent.getBoundingClientRect();
+    const contentHeight = contentRect.height;
+    if (contentHeight === 0 || !chapterContent.textContent.trim()) return;
 
-    const readingLine = window.innerHeight * 0.5;
-    const contentTop = chapterContent.getBoundingClientRect().top;
-    const fractionRead = Math.min(1, Math.max(0, (readingLine - contentTop) / contentHeight));
+    const fractionRead = Math.min(1, Math.max(0, (window.innerHeight - contentRect.top) / contentHeight));
     if (fractionRead <= chapterProgress[current]) return;
 
     chapterProgress[current] = fractionRead;
     localStorage.setItem(readingProgressKey, JSON.stringify(chapterProgress));
-    renderOverallProgress();
+    renderChapterProgress();
   }
   function scheduleProgressUpdate() {
     if (progressFrame) return;
@@ -99,7 +90,7 @@
     return out;
   }
   function initialize() {
-    document.title = `${STORY.title} — Arquivo de Westeros`;
+    document.title = `${STORY.title} — Arquivo de Saoteros`;
     $("sidebarTitle").innerHTML = safeText(STORY.title).replace(/</g, "&lt;").replace(/>/g, "&gt;");
     $("storyTitle").textContent = STORY.title;
     $("storySubtitle").textContent = STORY.subtitle;

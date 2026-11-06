@@ -7,12 +7,12 @@ Site estático, responsivo e sem dependências externas, feito para abrir no VS 
 - Tipografia serifada inspirada na experiência de leitura do AO3 (Georgia)
 - Emblema de dragão de três cabeças em SVG, com estética Targaryen
 - Índice de capítulos, seletor, anterior/próximo
-- Progresso geral de leitura salvo neste navegador
+- Progresso de leitura salvo separadamente para cada capítulo neste navegador
 - Ajuste do tamanho da fonte e largura da coluna
 - Responsivo para celular e desktop
 
 ## Como abrir
-Abra `index.html` no navegador. Para desenvolvimento, abra a pasta do projeto no VS Code; a extensão **Live Server** também pode ser usada.
+Abra `index.html` no navegador para ver a página inicial. Clique em **Entrar e ver os capítulos** para abrir `chapters.html`, onde ficam o índice e a leitura. Para desenvolvimento, abra a pasta do projeto no VS Code; a extensão **Live Server** também pode ser usada.
 
 ## Como inserir a história completa
 Abra `story.js`. No objeto `STORY`, ajuste os dados da fic (`title`, `subtitle`, `author`, `rating`, `warnings`, `relationships`, `summary`) e substitua os capítulos de exemplo.

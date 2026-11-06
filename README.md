@@ -7,7 +7,7 @@ Site estático e responsivo para leitura de histórias, feito com HTML, CSS e Ja
 
 ## Executar localmente
 
-Abra `saoteros_fic/index.html` no navegador. Para desenvolvimento, você também pode abrir a pasta `saoteros_fic` no VS Code e iniciar o Live Server.
+Abra `saoteros_fic/index.html` no navegador para ver a página inicial. Use o botão **Entrar e ver os capítulos** para acessar a leitura. Para desenvolvimento, você também pode abrir a pasta `saoteros_fic` no VS Code e iniciar o Live Server.
 
 ## Publicar no GitHub Pages
 
