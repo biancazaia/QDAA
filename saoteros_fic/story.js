@@ -1075,6 +1075,74 @@ const STORY = {
         <p>— Eu também te amo, fica comigo por favor.</p>
         <p>Um sorriso nada feliz apareceu em seu rosto, mostrando sua covinha. Ela parecia cansada. Sua pele estava embranquecendo rápido demais. Seu coração batia fraco. O amor da minha vida estava em apuros.</p>
       `
+    },
+    {
+     title: "A Guerra dos Tronos - Parte 3",
+     content: `
+        <h3>POV Loreanys</h3>
+        <p>Lutar pelo meu reino não era uma tarefa fácil. Meu pai havia me alertado que um exército bem treinado era capaz de destruir uma nação. Agora eu entendia essas palavras. Uma única flecha perfurou meu corpo, e a dor que senti foi descomunal.</p>
+        <p>Paulyn me carregou até sua casa, tomando o máximo de cuidado para que a flecha não perfurasse mais e chegasse em um ponto mais vital. Senti minhas costas encostando na mesa de jantar, para avaliarem meu ferimento.</p>
+        <p>Du tinha convocado um Meistre assim que soube do início do conflito no nosso reino. Kasper Snow chegou sem cordialidades, dando ordens aos meus aliados, das quais não entendi direito. Minha visão estava turva, eu não conseguia sentir o lado esquerdo do meu corpo.</p>
+        <p>A movimentação na cozinha de Paulyn era frenética, com muitos passos e vozes. Sentia o sangue quente escorrendo pelo meu peito, apenas um fio. Tentei mexer minha mão direita, chamar a atenção de alguma forma, quando senti algo restringir meu movimento.</p>
+        <p>O que restringia é a minha falta de força. Forcei a vista para procurar Eduarcent, queria ela mais que qualquer coisa. Uma paz insuportável subia pelo meu ser, eu não queria sentir isso. Não agora, não tão cedo.</p>
+        <p>Quando encontrei Eduarcent, ela tirava minha armadura, para que Kasper entendesse a dimensão do ferimento. Senti um líquido gelado tocar minha pele e navegar por ela, até sentir o cheiro em meu nariz: álcool.</p>
+        <p>As vozes estavam confusas demais, eu não conseguia entender nada. Senti algo segurar minha mão direita, virei os olhos pra ver o semblante ruivo que me agraciou. Um pequeno sorriso se esboçou no meu rosto, sentir o toque de Eduarcent realmente era a melhor sensação do mundo.</p>
+        <p>Kasper continuava com os questionamentos, com uma preparação que eu não conseguia entender. Ouvi Eduarcent se aproximar do meu ouvido, o calor das suas palavras chegaram antes do som, o qual não entendi completamente. Ela estava falando pra eu aguentar? Pra eu me entregar? O que diabos estava acontecendo comigo naquela maldita cozinha?</p>
+        <p>A dor aguda que senti em seguida me arrancou um grito muito alto. Senti a flecha ser arrancada. Uma pressão forte sendo feita sobre a ferida para estancar o sangue. Eduarcent continuava segurando minha mão. Me lembro de sentir uma lágrima escorrer pelo canto do meu olho, depois disso eu senti meu corpo desligar. Completamente.</p>
+        <h3>POV Narrador</h3>
+        <p>Gerlucy continuava com Margareth na mesma fronteira onde foram impedidos de ultrapassar. Havia sangue da Rainha no chão. Estavam preocupados com o rumo daquela invasão.</p>
+        <p>- Certo, como Loreanys está fora de combate, perdemos dois dragões e a Eduarcent. Precisamos manter o cerco da cidade assim, para conseguirmos avançar e retomar o castelo o quanto antes - Margareth assumiu a frente, com sua habilidade de liderança e experiência em guerras.</p>
+        <p>- Concordo, vou deixar meu exército espalhado por aqui, para que não passe comida ou suprimentos para eles. Logo começaram a entender o que é uma guerra de verdade - a voz de Gerlucy carregava ódio puro. Loreanys era sua amiga de longa data, não estava contente com o que aconteceu.</p>
+        <p>Junyor saiu em busca dos comandantes para formar a barreira, a adrenalina ainda corria em suas veias quando entregou a mensagem dita pelas líderes. No caminho ainda aniquilou outros inimigos que apareceram, sem se ferir.</p>
+        <p>Com a barreira formada, Gerlucy e Margareth correram para a casa de Paulyn para entender o estado de Loreanys. Gerlucy contava à Margareth no caminho como Loreanys era uma pessoa incrível, e das aventuras que viveram quando eram mais novas e com menos compromissos.</p>
+        <p>A segurança na casa de Paulyn estava reforçada, ninguém entrava sem autorização direta de Eduarcent, que agora estava ao lado de Loreanys.</p>
+        <p>- Como ela está? - Gerlucy esboçava nervosismo no rosto, questionando Kasper.</p>
+        <p>- Agora ela está descansando, foi um trauma profundo, consegui evitar maiores dano, mas ela tem uma recuperação longa e lenta pela frente. - o homem grisalho tinha voz firme, não deixando dúvidas sobre o estado de Loreanys.</p>
+        <p>- Menos mal, o pior então já passou. Acha que ela pode voltar a batalhar conosco? - Margareth questionou, sua fala com tom de alívio.</p>
+        <p>- Não, essa guerra ela não luta mais. Com o tamanho desse ferimento, ela não consegue nem montar no dragão. O ombro dela foi diretamente afetado. - se virou para falar mais amplamente, não apenas para as duas recém chegadas - Uma infecção ainda pode acontecer se não cuidarmos direito do ferimento.</p>
+        <p>Todos se voltaram para observar Loreanys, que tinha Eduarcent do seu lado na cama, sentada em uma cadeira. Ao sentir os olhos voltados para ela, Eduarcent levantou o rosto, e segurando a mão de Loreanys, observou cada um que estava preocupado com seu amor. Entendeu que ela não estava sozinha naquela batalha.</p>
+        <p>- Loreanys não iria parar de lutar se estivesse acordada. Então temos que continuar. Qual o próximo passo? - Eduarcent fitou cada um, vendo Margareth tomar a liderança naquele momento.</p>
+        <p>Combinaram os próximos passos, que incluíam interceptar todo suprimento, não deixar reforços, manter portos e estradas fechados para os inimigos e continuar distribuindo suprimentos para os moradores. E quando distribuir, deixar evidente o símbolo da casa que está entregando os alimentos, afinal o povo precisa lembrar quem estava do lado deles no momento mais difícil.</p>
+        <h3>POV Eduarcent</h3>
+        <p>A dor que me invadia não era devido à uma espada. Ver a Lore naquela situação estava tirando minha sanidade, e só me restava esperar, não havia nada além disso para ser feito.</p>
+        <p>Ela entrou em um estado febril no segundo dia de cuidados, e aquilo me preocupou mais ainda.</p>
+        <p>Kasper me orientou quais ervas e remédios usar para evitar que a infecção aumentasse, e seguindo a risca, esse perigo consegui deter. O buraco que havia ficado em seu ombro deixará uma cicatriz grande.</p>
+        <p>A culpa me corroía. Ela estava machucada porque eu não consegui proteger ela, o plano inicial era esse, eu ficar na sua retaguarda e não deixar nada acontecer. Mas eu falhei, e durante a primeira noite, eu não consegui dormir, só sabia chorar.</p>
+        <p>As últimas palavras que ouvi saindo de sua boca ecoavam na minha mente, “Eu te amo muito, nunca se esqueça disso.”. Como eu iria te esquecer, sua boba? Você levantou uma guerra só pra ficar comigo. Até parece que é possível esquecer de alguém que fez isso por mim, pelo nosso amor.</p>
+        <p>No terceiro dia, ela abriu os olhos, ainda bem debilitada. Conseguiu comer um caldo, bem ralo e com bastante dificuldade. Cuidei dela todos os dias da sua recuperação. Enquanto estava trancada ali na casa de Paulyn, os outros continuavam batalhando, impedindo o avanço dos traidores. A comida que chegava no castelo era insuficiente, e recebi ameaças escritas diretamente por Rogério. Ele tinha se autodeclarado Rei, que arrumasse uma maneira de levar comida ao castelo.</p>
+        <p>Na segunda semana, Lore conseguiu se levantar da cama e fazer uma curta caminhada. Suas costas estavam machucadas de ficar deitada, com algumas feridas que tratei. Aprendi bastante com o Kasper sobre a arte de cura dos Meistres, então replicar não era problema.</p>
+        <p>Ajudei Lore com um banho de verdade dessa vez, limpando toda sujeira de seu corpo, passando a esponja com calma e delicadeza, vendo seu corpo se arrepiar ao sentir cada toque. Era impressionante que mesmo machucada, ela ainda era a mulher mais bela.</p>
+        <p>Seus movimentos limitados exigiam que meu esforço fosse maior, tanto que após esse banho, ela se vestiu com roupas simples, um robe de pelo de urso, para eu ter um acesso mais fácil às feridas.</p>
+        <p>- Você cuidou de mim sozinha esse tempo todo? - sua voz era mais rouca que o normal, quase um sussurro.</p>
+        <p>- Não, todos me ajudaram. Eu fiquei com você a maior parte do tempo, mas também precisava comer, dormir… - ajustei uma mecha de cabelo que caia em seu rosto, deixando um carinho singelo na bochecha que mostrava sua covinha em um sorriso singelo - mas fiquei do seu lado, o tempo todo. Me desculpa amor.</p>
+        <p>- Desculpa de que? Você não fez nada de errado. - sua mão tocava minha coxa, meu vestido era fino e eu conseguia sentir o calor do seu toque.</p>
+        <p>- Eu não consegui te proteger como prometi, e isso me atormentou até hoje.</p>
+        <p>- Para de bobagem, claro que conseguiu. Não estou aqui, viva e falante? - suas pupilas estavam dilatadas, seu olhar intercalava entre meus olhos e minha boca e um rubor preencheu seu rosto.</p>
+        <p>- Está, e pelo jeito está safada também, se comporta. - continuei passando a pomada em suas feridas.</p>
+        <p>- Eu mereço um beijinho, me comportei até agora e estou melhorando graças aos cuidados da melhor namorada do mundo - o carinho na minha coxa se intensificou, com leves apertões. Me rendi ao pedido e selei nossos lábios rapidamente.</p>
+        <p>- Agora deixe eu terminar de cuidar de você, tá quase boa pra voltar pra ativa, mas ainda precisa de atenção.</p>
+        <p>Lore finalmente deixou eu terminar os curativos e se levantou novamente, dando pequenos passos pelo quarto e tentando mexer o braço parcialmente recuperado. A dor que ela estava sentindo era visível em seu rosto, mas ela se esforçava. Lore era realmente uma guerreira e estava disposta à tudo pra ter seu reino de volta.</p>
+        <p>Quando o sol começou a descer do céu, nossos aliados se reuniram na sala, para discutir os próximos passos.</p>
+        <p>- Vossa Graça, nosso bloqueio ainda está em pé, mas houveram pontos onde passaram comida para o castelo. Perdemos poucos homens nesse tempo. - Margareth passava o relatório, prendendo o olhar de Lore.</p>
+        <p>- Certo, eles ainda não morreram de fome, então vão morrer pelas minhas mãos. - Lore dizia calma, mas as palavras eram carregadas de um veneno vingativo.</p>
+        <p>- Você ainda não está em condições Loreanys, nem pensar em montar no Boryx. - Gerlucy interrompeu, olhando para mim - Faz alguma coisa com sua mulher, por favor.</p>
+        <p>- Eu cansei de falar que ela precisa se recuperar, e quem disse que me ouve? - o tom de ironia estava presente na minha voz.</p>
+        <p>- Eu ainda estou aqui, viu? Mas voltando aqui, vou tentar montar no Boryx hoje, dependendo como me sentir, eu só vou com ele até a barreira e depois que vocês invadirem e trazerem os traidores pra fora, a gente queima eles.</p>
+        <p>- Então faremos isso quando? - Paulyn estava atento aos sinais, percebia que Lore não esperaria muito tempo, então iria acelerar os preparativos.</p>
+        <p>- Pensei em hoje a noite, surpreender eles enquanto dormem, o que acham? - Olhei para Lore e vi a convicção do ataque, ela não seria nada piedosa com eles.</p>
+        <p>Todos concordaram e se dirigiram para seus preparativos. Acompanhei Lore até onde Boryx estava, aos arredores de King’s Landing, para ela tentar montar ele. No caminho, contei como foi dividir meu tempo entre ela e os dragões, afinal eles precisavam também de atenção. Seu olhar terno sobre mim aquecia meu coração, eu sentia que o tamanho do meu amor por ela aumentava a cada interação.</p>
+        <p>Chegando na colina, Boryx veio ao nosso encontro e se prostrou para ela, a ligação deles era tão forte que ele sabia o que ela sentia. Porém, sem seu braço esquerdo, ela não conseguia montá-lo. Na terceira tentativa, mesmo com a minha ajuda, ela não conseguia. Ainda não estava totalmente recuperada.</p>
+        <p>- É, terei que ir por terra mesmo. Que droga. - Lore estava frustrada, bufando e chutando pedrinhas enquanto tentava achar uma solução.</p>
+        <p>- Vamos por terra amor, vou junto com você. Assim que eles tirarem aqueles malditos do castelo, trazemos eles aqui e o Boryx faz churrasquinho deles - o sorriso que meus lábios mostraram se refletem nela, sua covinha evidente, e em um abraço me envolveu.</p>
+        <p>- Então vamos voltar, pra nos preparar para isso. Não vejo a hora de voltar para casa.</p>
+        <p>Ainda em seus braços, fui puxada para um beijo casto, o selar de lábios que eu estava acostumada. Nossas testas ainda estavam coladas, quando Boryx nos envolveu debaixo de tuas asas, como forma de proteção.</p>
+        <p>Aquela atmosfera que surgiu entre nós foi suficiente para eu sentir o desejo que Lore carregava, desde aquele banho mais cedo. Sua mão invadiu minha nuca e se prendeu, me puxando para um beijo profundo. Sua língua não pediu passagem, apenas invadiu minha boca e se chocou contra a minha, de forma que senti um choque elétrico percorrer minhas costas.</p>
+        <p>Para uma pessoa que estava muito machucada, o ímpeto de Loreanys para me beijar era surpreendente. Nossas línguas se encontravam com cada vez mais fome, uma fome de saudade, de desespero. Minha mão agarrou forte a cintura dela, precisava de algo pra me apoiar à realidade. Encerrei o beijo com delicadeza, distribuindo vários selinhos e beijos pelo seu pescoço, ouvindo um grunhido de insatisfação.</p>
+        <p>- Não faz isso comigo.. eu estou morrendo de saudades do seu toque, eu to bem! Por favor. - eu ouvia a sua súplica, morrendo de vontade de acatá-la, mas sabendo o dano que isso traria pra ela.</p>
+        <p>- Amor, não podemos ainda. Vamos com calma, assim que reconquistar o castelo, nós aproveitamos, combinado? - acariciava seu rosto, e o sorriso se formou primeiro em seus olhos e depois nos seus lábios.</p>
+        <p>- Eu vou cobrar hein! Promessa é dívida pra mim. - e foi me puxando para voltarmos à casa de Paulyn.</p>
+        <p>Eu estava mais ansiosa que nunca, finalmente tudo isso ia acabar. E eu poderia dar à Lore, tudo o que ela sempre sonhou.</p>
+`
     }
   ]
 };
