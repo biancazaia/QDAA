@@ -1142,7 +1142,7 @@ const STORY = {
         <p>- Amor, não podemos ainda. Vamos com calma, assim que reconquistar o castelo, nós aproveitamos, combinado? - acariciava seu rosto, e o sorriso se formou primeiro em seus olhos e depois nos seus lábios.</p>
         <p>- Eu vou cobrar hein! Promessa é dívida pra mim. - e foi me puxando para voltarmos à casa de Paulyn.</p>
         <p>Eu estava mais ansiosa que nunca, finalmente tudo isso ia acabar. E eu poderia dar à Lore, tudo o que ela sempre sonhou.</p>
-`
+        `
     }
   ]
 };
