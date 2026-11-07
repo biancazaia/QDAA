@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#241719" />
+    <meta
+      name="description"
+      content="Jogue Voo de Saoteros e guie o dragão pelos pilares da muralha."
+    />
+    <title>Voo de Saoteros — Arquivo de Saoteros</title>
+    <link rel="icon" href="assets/targaryen-sigil.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="game-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Voltar à página inicial">
+        <img src="assets/targaryen-sigil.svg" alt="" class="sigil" />
+        <span><small>ARQUIVO DE</small><strong>SAOTEROS</strong></span>
+      </a>
+      <div class="header-actions">
+        <button
+          id="themeToggle"
+          class="icon-button"
+          type="button"
+          aria-label="Alternar tema"
+          title="Alternar tema"
+        >
+          ☾ <span>Tema</span>
+        </button>
+        <a
+          class="icon-button game-home-link"
+          href="index.html"
+          aria-label="Voltar à página inicial"
+        >
+          ← <span>Início</span>
+        </a>
+      </div>
+    </header>
+    <p class="orientation-note">
+      Vire o celular na horizontal para uma melhor experiência!
+    </p>
+    <main class="game-main">
+      <section class="dragon-game" aria-labelledby="gameTitle">
+        <div class="game-heading">
+          <div>
+            <p class="eyebrow">UM DESAFIO DE SAOTEROS</p>
+            <h1 id="gameTitle">Voo de Saoteros</h1>
+          </div>
+          <p class="game-score" aria-live="polite">
+            PONTOS <strong id="gameScore">0000</strong>
+          </p>
+        </div>
+        <div class="game-board" id="gameBoard">
+          <canvas
+            id="dragonCanvas"
+            aria-label="Jogo de voo: mova o dragão para cima ou para baixo e atravesse as aberturas"
+          ></canvas>
+          <div class="game-message" id="gameMessage" aria-live="polite">
+            APERTE JOGAR
+          </div>
+        </div>
+        <div class="game-controls">
+          <span>↑ / ↓ OU W / S · TOQUE PARA MOVER</span>
+          <button class="game-button" id="gameButton" type="button">
+            Jogar
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="dragon-game.js"></script>
+  </body>
+</html>
